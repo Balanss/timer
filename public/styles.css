@@ -1,0 +1,35 @@
+body{
+  background-color: #080007;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png") !important;
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+.all-items{
+      margin-bottom: 30px;
+      background-color: whitesmoke;
+      border-radius: 10px;
+}
+
+.hold-text{
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: space-around;
+      align-items: center;
+
+}
+
+.warning{
+  border: 3px solid black;
+padding:10px;
+
+background-color: red;
+color: white;
+}
+
+.yellow-warning{
+  border: 3px solid black;
+padding:10px;
+background-color: yellow;
+}

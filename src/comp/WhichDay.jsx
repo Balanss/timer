@@ -8,7 +8,7 @@ import Product from "./Product";
 
 function createDay (dag){
   let t = new Date()
-  const time2 = t.getDate()
+  const time2 = t.getYear()
   const totalDate = time2 - dag.dates
   console.log(totalDate)
 

@@ -33,7 +33,7 @@ h2{
 
 .warning{
   border: 3px solid black;
-padding:4px;
+padding:1px;
 
 background-color: red;
 color: white;
@@ -41,6 +41,6 @@ color: white;
 
 .yellow-warning{
   border: 3px solid black;
-padding:10px;
+padding:5px;
 background-color: yellow;
 }

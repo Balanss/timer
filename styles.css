@@ -33,8 +33,8 @@ h2{
 
 .warning{
   border: 3px solid black;
-padding:1px;
-
+  padding-left: 2px;
+padding-right: 2px;
 background-color: red;
 color: white;
 }

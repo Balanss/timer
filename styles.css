@@ -7,6 +7,10 @@ body{
 
 h2{
   font-size: 1.2rem !important;
+  line-height: 1.5em !important;
+    height: 3em;
+    overflow: hidden;
+    width: 95%;
 }
 
 .all-items{
@@ -76,4 +80,23 @@ background-color: yellow;
     -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
   }
 
+}
+
+@media screen and (max-width:374px){
+
+  .h2{
+    line-height: 1.5em !important;
+   height: 3em;
+   overflow: hidden;
+   width: 95%;
+   font-size: 1rem !important;
+  }
+  .all-items{
+      margin-right: 15px;
+      margin-left: 15px;
+  }
+ .warning{
+   padding: 0;
+   border-radius: 10px;
+ }
 }

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/https//Balanss.githubio/timer/static/js/main.d2072352.js",
-    "index.html": "/https//Balanss.githubio/timer/index.html",
-    "main.d2072352.js.map": "/https//Balanss.githubio/timer/static/js/main.d2072352.js.map"
+    "main.js": "/timer/static/js/main.d2072352.js",
+    "index.html": "/timer/index.html",
+    "main.d2072352.js.map": "/timer/static/js/main.d2072352.js.map"
   },
   "entrypoints": [
     "static/js/main.d2072352.js"

@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from  "./comp/App";
+import Filter from "./comp/Filter";
+
+
 
 
 
@@ -8,7 +11,12 @@ import App from  "./comp/App";
 const root = ReactDOM.createRoot(document.getElementById('home'));
 root.render(
   <React.StrictMode>
-<App />
+
+<div >
+<Filter />
+ <App />
+</div>
+
   </React.StrictMode>,document.getElementById("home")
 );
 

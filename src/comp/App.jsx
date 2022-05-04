@@ -5,58 +5,106 @@ import Product from "./Product";
 
 
 
-function createDate(date){
-  let time = new Date()
-  const time1 = time.getMonth()+1
-  let t = new Date()
-  const time2 = t.getDate()
-  let y = new Date()
-  const time3 = y.getFullYear()
-  let doubleMonth = new Date()
-  const dm = doubleMonth.getMonth()+2
 
 
 
-  if((date.month == time1 && (date.year === time3))   ){
-    return(
-      <div className="all-items">
-       <Product
-         time={date.name}
-         month={date.month}
-         year={date.year}
-         day={date.day}
-         dates={date.dates - time2}
-         />
+
+function createMonth(months) {
+
+  let nextMonth = new Date()
+  const time3 = nextMonth.getMonth() + 2
 
 
-      </div>
-
-
+  if ((months.month === time3 && (months.dates < 7) && (months.dates > 25))) {
+    return ( <
+      div className = " all-items" >
+      <Product time = {months.name}
+      month ={months.month}
+      day = {months.day}
+      year = {months.year}
+      />
+       </div>
     )
   }
-  else  {
-    return null;
-  };
-
 
 
 }
 
 
 
-function App(){
+
+
+function createDate(date) {
+  let time = new Date()
+  const time1 = time.getMonth() + 1
+  let t = new Date()
+  const time2 = t.getDate() + 7
+  let y = new Date()
+  const time3 = y.getFullYear()
 
 
 
 
 
-return( <div className="hold-all">
+  if ((date.month === time1 && (date.year === time3) && (date.dates < time2) && (date.dates > 0))) {
+    return (
 
- {Items.map(createDate)}
+      <
+      div className = "all-items" >
 
 
+      <
+      Product time = {
+        date.name
+      }
+      month = {
+        date.month
+      }
+      year = {
+        date.year
+      }
+      day = {
+        date.day
+      }
+      dates = {
+        date.dates - 1
+      }
+
+      />
+      <
+      /div>
+
+    )
+  } else {
+    return null;
+  };
+
+
+}
+
+
+
+
+function App() {
+
+
+
+
+
+  return (
+
+
+    <div className = "items-map" >
+    {Items.map(createDate)  }
+{Items.map(createMonth)}
 </div>
-)
+
+
+
+
+
+
+  )
 }
 
 export default App;

@@ -41,6 +41,7 @@ h2{
 padding-right: 2px;
 background-color: red;
 color: white;
+border-radius: 10px;
 }
 
 .yellow-warning{
@@ -52,6 +53,21 @@ background-color: yellow;
 .items-map{
   text-align: center;
 }
+
+.filter-container{
+  text-align: center;
+  margin-top: 20px
+}
+
+.filter-items{
+  margin-bottom: 40px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+height: 180px;
+margin-left: 20px;
+margin-top: 20px;
+}
+
 
 
 @media screen and (min-width:375px){
@@ -71,9 +87,13 @@ background-color: yellow;
 
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:1024px){
   .all-items{
       width: 25%;
+  }
+
+  .filter-row{
+    display: inline-flex !important;
   }
 
   .all-items:hover{

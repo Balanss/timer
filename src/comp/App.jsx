@@ -22,6 +22,7 @@ function createMonth(months) {
       month ={months.month}
       day = {months.day}
       year = {months.year}
+
       />
        </div>
     )
@@ -39,6 +40,7 @@ function createDate(date) {
   const time1 = time.getMonth() + 1
   let t = new Date()
   const time2 = t.getDate() + 7
+  const minusDay = t.getDate()
   let y = new Date()
   const time3 = y.getFullYear()
 
@@ -49,30 +51,15 @@ function createDate(date) {
   if ((date.month === time1 && (date.year === time3) && (date.dates < time2) && (date.dates > 0))) {
     return (
 
-      <
-      div className = "all-items" >
-
-
-      <
-      Product time = {
-        date.name
-      }
-      month = {
-        date.month
-      }
-      year = {
-        date.year
-      }
-      day = {
-        date.day
-      }
-      dates = {
-        date.dates - 1
-      }
-
+<div className = "all-items" >
+      <Product
+       time = {date.name}
+      month = {date.month}
+      year = {date.year}
+      day = {date.day}
+      dates = {date.dates - minusDay }
       />
-      <
-      /div>
+      </div>
 
     )
   } else {

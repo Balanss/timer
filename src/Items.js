@@ -62,6 +62,13 @@ const Items = [{
     year: 2022
   },
   {
+    name: "Campina slagroom",
+    month: 9,
+    day: "7",
+    dates: 7,
+    year: 2022
+  },
+  {
     name: "min koffiesahne",
     month: 10,
     day: "11",
@@ -90,14 +97,14 @@ const Items = [{
     year: 2022
   },
   {
-    name: "yakult 8 stuks",
+   name: "yakult 8 stuks",
     month: 0,
     day: "4",
     dates: 4,
     year: 2022
   },
   {
-    name: "yakult 8 stuks",
+   name: "yakult 8 stuks",
     month: 0,
     day: "9",
     dates: 9,
@@ -1100,6 +1107,13 @@ const Items = [{
     year: 2022
   },
   {
+    name: "treasure cave crumbled",
+    month: 5,
+    day: "29",
+    dates: 29,
+    year: 2022
+  },
+  {
     name: "treasure cove blue cheese",
     month: 6,
     day: "19",
@@ -1338,6 +1352,13 @@ const Items = [{
     year: 2022
   },
   {
+    name: "es everday mexican 4 blend ",
+    month: 6,
+    day: "21",
+    dates: 21,
+    year: 2022
+  },
+  {
     name: "es everday taco blend fancy cut",
     month: 7,
     day: "27",
@@ -1416,9 +1437,9 @@ const Items = [{
   },
   {
     name: "kraft mexican 4 cheese",
-    month: 6,
-    day: "5",
-    dates: 5,
+    month: 7,
+    day: "10",
+    dates: 10,
     year: 2022
   },
   {
@@ -1482,6 +1503,13 @@ const Items = [{
     month: 9,
     day: "24",
     dates: 24,
+    year: 2022
+  },
+  {
+    name: "es everyday moz block",
+    month: 8,
+    day: "18",
+    dates: 18,
     year: 2022
   },
   {
@@ -2206,14 +2234,14 @@ const Items = [{
     year: 2022
   },
   {
-    name: "Danootje strawberry",
+   name: "Danootje strawberry",
     month: 0,
     day: "5",
     dates: 5,
     year: 2022
   },
   {
-    name: "Danootje vanilla",
+   name: "Danootje vanilla",
     month: 0,
     day: "24",
     dates: 24,
@@ -2221,7 +2249,7 @@ const Items = [{
   },
   {
     name: "Danio mango/kiwi",
-    month: 5,
+    month: 0,
     day: "8",
     dates: 8,
     year: 2022
@@ -2255,7 +2283,7 @@ const Items = [{
     year: 2022
   },
   {
-    name: "Danio luchtig bosbes",
+   name: "Danio luchtig bosbes",
     month: 0,
     day: "10",
     dates: 10,
@@ -2269,7 +2297,7 @@ const Items = [{
     year: 2022
   },
   {
-    name: "galbani moz ",
+   name: "galbani moz ",
     month: 0,
     day: "10",
     dates: 10,
@@ -2380,6 +2408,14 @@ const Items = [{
     dates: 1,
     year: 2022
   },
+  {
+    name: "Kefir blueberry",
+    month: 7,
+    day: "11",
+    dates: 1,
+    year: 2022
+  },
+
 
 
 

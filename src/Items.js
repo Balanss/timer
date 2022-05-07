@@ -77,9 +77,9 @@ const Items = [{
   },
   {
     name: "Elinas",
-    month: 5,
-    day: "13",
-    dates: 13,
+    month: 6,
+    day: "3",
+    dates: 3,
     year: 2022
   },
   {
@@ -98,9 +98,9 @@ const Items = [{
   },
   {
    name: "yakult 8 stuks",
-    month: 0,
-    day: "4",
-    dates: 4,
+    month: 5,
+    day: "16",
+    dates: 16,
     year: 2022
   },
   {
@@ -344,14 +344,14 @@ const Items = [{
   },
   {
     name: "neuburger vanille",
-    month: 5,
+    month: 0,
     day: "13",
     dates: 13,
     year: 2022
   },
   {
     name: "neuburger choco",
-    month: 5,
+    month: 0,
     day: "14",
     dates: 14,
     year: 2022
@@ -555,14 +555,14 @@ const Items = [{
   },
   {
     name: "Lactaid",
-    month: 5,
+    month: 0,
     day: "12",
     dates: 12,
     year: 2022
   },
   {
     name: "Lactaid jug",
-    month: 6,
+    month: 0,
     day: "28",
     dates: 28,
     year: 2022
@@ -635,6 +635,13 @@ const Items = [{
     month: 5,
     day: "20",
     dates: 20,
+    year: 2022
+  },
+  {
+    name: "phily 2 pack",
+    month: 8,
+    day: "28",
+    dates: 28,
     year: 2022
   },
   {
@@ -1016,6 +1023,20 @@ const Items = [{
     year: 2022
   },
   {
+    name: "versuniek jong belegen ",
+    month: 7,
+    day: "10",
+    dates: 10,
+    year: 2022
+  },
+  {
+    name: "versuniek jong belegen komijn",
+    month: 7,
+    day: "10",
+    dates: 10,
+    year: 2022
+  },
+  {
     name: "versuniek komijn kaas",
     month: 6,
     day: "4",
@@ -1269,7 +1290,7 @@ const Items = [{
   },
   {
     name: "kavas chovi",
-    month: 5,
+    month: 0,
     day: "8",
     dates: 8,
     year: 2022
@@ -1765,6 +1786,7 @@ const Items = [{
     dates: 20,
     year: 2022
   },
+
   {
     name: "vlees n jus",
     month: 9,
@@ -1864,7 +1886,7 @@ const Items = [{
   },
   {
     name: "sutdiyari rood 60",
-    month: 5,
+    month: 0,
     day: "7",
     dates: 7,
     year: 2022
@@ -2235,14 +2257,14 @@ const Items = [{
   },
   {
    name: "Danootje strawberry",
-    month: 0,
-    day: "5",
-    dates: 5,
+    month: 5,
+    day: "17",
+    dates: 17,
     year: 2022
   },
   {
    name: "Danootje vanilla",
-    month: 0,
+    month: 5,
     day: "24",
     dates: 24,
     year: 2022
@@ -2256,7 +2278,7 @@ const Items = [{
   },
   {
     name: "Danio banaan",
-    month: 5,
+    month: 0,
     day: "8",
     dates: 8,
     year: 2022
@@ -2283,8 +2305,29 @@ const Items = [{
     year: 2022
   },
   {
+    name: "Danio luchtig kwark",
+    month: 5,
+    day: "17",
+    dates: 17,
+    year: 2022
+  },
+  {
    name: "Danio luchtig bosbes",
-    month: 0,
+    month: 5,
+    day: "17",
+    dates: 17,
+    year: 2022
+  },
+  {
+    name: "Danio straccialtella",
+    month: 5,
+    day: "18",
+    dates: 18,
+    year: 2022
+  },
+  {
+    name: "Danio bosbes",
+    month: 5,
     day: "10",
     dates: 10,
     year: 2022
@@ -2292,29 +2335,29 @@ const Items = [{
   {
     name: "Danio luchtig aardbei fraise",
     month: 5,
-    day: "14",
-    dates: 14,
+    day: "23",
+    dates: 23,
     year: 2022
   },
   {
    name: "galbani moz ",
-    month: 0,
-    day: "10",
-    dates: 10,
+    month: 5,
+    day: "18",
+    dates: 18,
     year: 2022
   },
   {
     name: "boeren vla vanilla",
     month: 5,
-    day: "15",
-    dates: 15,
+    day: "21",
+    dates: 21,
     year: 2022
   },
   {
     name: "boeren vla vanilla mix choco",
     month: 5,
-    day: "15",
-    dates: 15,
+    day: "21",
+    dates: 21,
     year: 2022
   },
   {
@@ -2322,6 +2365,20 @@ const Items = [{
     month: 0,
     day: "5",
     dates: 5,
+    year: 2022
+  },
+  {
+    name: "alpro kersen",
+    month: 5,
+    day: "18",
+    dates: 18,
+    year: 2022
+  },
+  {
+    name: "alpro nature",
+    month: 5,
+    day: "19",
+    dates: 19,
     year: 2022
   },
   {

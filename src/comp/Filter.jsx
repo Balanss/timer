@@ -24,7 +24,7 @@ return (
 
 }).slice(0,3).map((val, key) =>
 
-    {return <Col xs={6} md={6} lg={3} className="filter-col" key={key} >
+    {return <Col xs={12} md={4} lg={4} className="filter-col" key={key} >
 
 
  <div className= 'filter-items'>

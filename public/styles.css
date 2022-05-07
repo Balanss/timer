@@ -13,18 +13,7 @@ h2{
     width: 95%;
 }
 
-.all-items{
-      margin-bottom: 30px;
-      background-color: whitesmoke;
-      border-radius: 10px;
-      display: inline-block;
-    width: 40%;
-    height: 180px;
-    margin-left: 20px;
-    margin-top: 20px;
-background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+
 
 .hold-text{
   text-align: center;
@@ -33,9 +22,17 @@ background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge
       flex-wrap: wrap;
       align-content: space-around;
       align-items: center;
-      margin-top: 15px;
-
+      border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: 150px;
+    margin: auto;
+    background-color: whitesmoke;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+        margin-bottom: 20px;
+            border-radius: 10px;
 }
+
+
 
 .warning{
   border: 3px solid black;
@@ -54,6 +51,18 @@ background-color: yellow;
 
 .items-map{
   text-align: center;
+margin-bottom: 30px;
+border-radius: 10px;
+display: flex;
+margin-top: 20px;
+flex-wrap: wrap;
+
+
+}
+
+.app{
+margin: auto;
+width: 350px;
 }
 
 .filter-container{
@@ -63,9 +72,7 @@ background-color: yellow;
 
 .filter-items{
   margin-bottom: 40px;
-  background-color: whitesmoke;
   border-radius: 10px;
-height: 125px;
 margin-top: 20px;
 font-size: 1.2rem !important;
     line-height: 1.5em !important;
@@ -93,19 +100,21 @@ border-radius: 5px;
 }
 
 @media screen and (min-width:768px){
-  .all-items{
-      width: 35%;
-  }
 
   .filter-row{
 
-    width: 85%;
+    width: 550px;
     margin: auto;
 
   }
 
+  .app{
+    width: 550px;
+    margin: auto;
+  }
+
   .filter-container{
-    width: 75% !important;
+    width: 550px !important;
     margin:auto;
     margin-top: 20px;
   }
@@ -114,24 +123,36 @@ border-radius: 5px;
 }
 
 @media screen and (min-width:1024px){
-  .all-items{
-      width: 25%;
-  }
+
 
   .input{
     margin-right: 30px;
   }
 
-  .filter-row{
-    display: inline-flex !important;
-    width: 74%;
-  }
 
-
-
-  .all-items:hover{
+  .hold-text:hover{
     -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
   }
+
+}
+
+@media screen and (min-width:1440px){
+
+.app{
+  width: 800px;
+}
+
+.hold-text{
+  width: 201px;
+}
+
+.filter-container{
+  width: 800px !important;
+}
+
+.filter-row{
+  width: auto;
+}
 
 }
 
@@ -151,5 +172,6 @@ border-radius: 5px;
  .warning{
    padding: 0;
    border-radius: 10px;
+   background-color: red!important;
  }
 }

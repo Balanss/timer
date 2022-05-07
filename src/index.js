@@ -8,13 +8,16 @@ import Filter from "./comp/Filter";
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('home'));
 root.render(
   <React.StrictMode>
 
-<div >
 <Filter />
+<div className="app" >
+
  <App />
+
 </div>
 
   </React.StrictMode>,document.getElementById("home")

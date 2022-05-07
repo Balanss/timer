@@ -48,10 +48,10 @@ function createDate(date) {
 
 
 
-  if ((date.month === time1 && (date.year === time3) && (date.dates < time2) && (date.dates > 0))) {
+  if ((date.month === time1 && (date.year === time3) && (date.dates < time2) && (date.dates > 0) )) {
     return (
 
-<div className = "all-items" >
+
       <Product
        time = {date.name}
       month = {date.month}
@@ -59,10 +59,10 @@ function createDate(date) {
       day = {date.day}
       dates = {date.dates - minusDay }
       />
-      </div>
+
 
     )
-  } else {
+  } else  {
     return null;
   };
 

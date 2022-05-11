@@ -34,6 +34,13 @@ const Items = [{
     year: 2022
   },
   {
+    name: "Blue brand  big",
+    month: 5,
+    day: "22",
+    dates: 22,
+    year: 2022
+  },
+  {
     name: "Blue brand light",
     month: 6,
     day: "14",
@@ -169,6 +176,13 @@ const Items = [{
   },
   {
     name: "daisy cottage cheese 4%",
+    month: 5,
+    day: "30",
+    dates: 30,
+    year: 2022
+  },
+  {
+    name: "daisy cottage cheese 4%",
     month: 6,
     day: "20",
     dates: 20,
@@ -211,7 +225,7 @@ const Items = [{
   },
   {
     name: "Yo crunch oreo",
-    month: 5,
+    month: 0,
     day: "13",
     dates: 13,
     year: 2022
@@ -378,6 +392,13 @@ const Items = [{
     year: 2022
   },
   {
+    name: "Fruit ontbijt sin/straw",
+    month: 6,
+    day: "15",
+    dates: 15,
+    year: 2022
+  },
+  {
     name: "Fruit ontbijt bos vruchten",
     month: 6,
     day: "15",
@@ -492,7 +513,7 @@ const Items = [{
   },
   {
     name: "silk coconut",
-    month: 5,
+    month: 0,
     day: "14",
     dates: 14,
     year: 2022
@@ -1248,7 +1269,7 @@ const Items = [{
   },
   {
     name: "la bonne original",
-    month: 5,
+    month: 0,
     day: "16",
     dates: 15,
     year: 2022
@@ -1486,7 +1507,7 @@ const Items = [{
   },
   {
     name: "Crystal farms four cheese",
-    month: 5,
+    month: 0,
     day: "14",
     dates: 14,
     year: 2022
@@ -1737,6 +1758,14 @@ const Items = [{
     year: 2022
   },
   {
+    name: "LOL butter",
+    month: 5,
+    day: "17",
+    dates: 17,
+    year: 2022
+  },
+
+  {
     name: "LOL unsalted butter",
     month: 6,
     day: "16",
@@ -1769,6 +1798,13 @@ const Items = [{
     month: 5,
     day: "22",
     dates: 22,
+    year: 2022
+  },
+  {
+    name: "versuniek grass room boter",
+    month: 6,
+    day: "30",
+    dates: 30,
     year: 2022
   },
   {
@@ -2138,7 +2174,7 @@ const Items = [{
   },
   {
     name: "milner komijn",
-    month: 5,
+    month: 0,
     day: "13",
     dates: 13,
     year: 2022
@@ -2257,14 +2293,14 @@ const Items = [{
   },
   {
    name: "Danootje strawberry",
-    month: 5,
+    month: 0,
     day: "17",
     dates: 17,
     year: 2022
   },
   {
    name: "Danootje vanilla",
-    month: 5,
+    month: 0,
     day: "24",
     dates: 24,
     year: 2022
@@ -2299,21 +2335,21 @@ const Items = [{
   },
   {
     name: "Danio luchtig aardbei",
-    month: 5,
+    month: 0,
     day: "17",
     dates: 17,
     year: 2022
   },
   {
     name: "Danio luchtig kwark",
-    month: 5,
+    month: 0,
     day: "17",
     dates: 17,
     year: 2022
   },
   {
    name: "Danio luchtig bosbes",
-    month: 5,
+    month: 0,
     day: "17",
     dates: 17,
     year: 2022
@@ -2472,6 +2508,14 @@ const Items = [{
     dates: 1,
     year: 2022
   },
+  {
+    name: "planet oats french vanille",
+    month: 5,
+    day: "27",
+    dates: 27,
+    year: 2022
+  },
+
 
 
 

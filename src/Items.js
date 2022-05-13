@@ -105,7 +105,7 @@ const Items = [{
   },
   {
    name: "yakult 8 stuks",
-    month: 5,
+    month: 0,
     day: "16",
     dates: 16,
     year: 2022
